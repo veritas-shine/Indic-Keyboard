@@ -31,6 +31,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.NinePatchDrawable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.android.inputmethod.keyboard.internal.KeyDrawParams;
@@ -77,6 +78,7 @@ import com.android.inputmethod.latin.utils.TypefaceUtils;
  * @attr ref R.styleable#Keyboard_Key_keyPreviewTextColor
  */
 public class KeyboardView extends View {
+    private Typeface mAhmaoFont;
     // XML attributes
     private final KeyVisualAttributes mKeyVisualAttributes;
     // Default keyLabelFlags from {@link KeyboardTheme}.
@@ -123,7 +125,8 @@ public class KeyboardView extends View {
 
     public KeyboardView(final Context context, final AttributeSet attrs, final int defStyle) {
         super(context, attrs, defStyle);
-
+        mAhmaoFont = Typeface.createFromAsset(context.getAssets(), "fonts/MiaoUnicode-Regular.ttf");
+        Log.e("MIAO", mAhmaoFont.toString());
         final TypedArray keyboardViewAttr = context.obtainStyledAttributes(attrs,
                 R.styleable.KeyboardView, defStyle, R.style.KeyboardView);
         mKeyBackground = keyboardViewAttr.getDrawable(R.styleable.KeyboardView_keyBackground);
@@ -385,7 +388,9 @@ public class KeyboardView extends View {
         float labelBaseline = centerY;
         final String label = key.getLabel();
         if (label != null) {
-            paint.setTypeface(key.selectTypeface(params));
+//            Ahmao
+//            paint.setTypeface(key.selectTypeface(params));
+            paint.setTypeface(mAhmaoFont);
             paint.setTextSize(key.selectTextSize(params));
             final float labelCharHeight = TypefaceUtils.getReferenceCharHeight(paint);
             final float labelCharWidth = TypefaceUtils.getReferenceCharWidth(paint);
@@ -439,7 +444,8 @@ public class KeyboardView extends View {
             paint.setTextSize(key.selectHintTextSize(params));
             paint.setColor(key.selectHintTextColor(params));
             // TODO: Should add a way to specify type face for hint letters
-            paint.setTypeface(Typeface.DEFAULT_BOLD);
+//            paint.setTypeface(Typeface.DEFAULT_BOLD);
+            paint.setTypeface(mAhmaoFont);
             blendAlpha(paint, params.mAnimAlpha);
             final float labelCharHeight = TypefaceUtils.getReferenceCharHeight(paint);
             final float labelCharWidth = TypefaceUtils.getReferenceCharWidth(paint);
@@ -507,7 +513,8 @@ public class KeyboardView extends View {
         final int keyWidth = key.getDrawWidth();
         final int keyHeight = key.getHeight();
 
-        paint.setTypeface(params.mTypeface);
+//        paint.setTypeface(params.mTypeface);
+        paint.setTypeface(mAhmaoFont);
         paint.setTextSize(params.mHintLetterSize);
         paint.setColor(params.mHintLabelColor);
         paint.setTextAlign(Align.CENTER);
@@ -529,13 +536,14 @@ public class KeyboardView extends View {
         final Paint paint = new Paint();
         paint.setAntiAlias(true);
         if (key == null) {
-            paint.setTypeface(mKeyDrawParams.mTypeface);
+//            paint.setTypeface(mKeyDrawParams.mTypeface);
             paint.setTextSize(mKeyDrawParams.mLabelSize);
         } else {
             paint.setColor(key.selectTextColor(mKeyDrawParams));
-            paint.setTypeface(key.selectTypeface(mKeyDrawParams));
+//            paint.setTypeface(key.selectTypeface(mKeyDrawParams));
             paint.setTextSize(key.selectTextSize(mKeyDrawParams));
         }
+        paint.setTypeface(mAhmaoFont);
         return paint;
     }
 

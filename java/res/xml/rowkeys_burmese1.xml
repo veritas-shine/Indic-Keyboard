@@ -28,53 +28,53 @@
             >
             <!-- MYANMAR LETTER JHA -->
             <Key
-                latin:keySpec="&#x1008;"
+                latin:keySpec="0x16F00"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER WA -->
             <Key
-                latin:keySpec="&#x101D;"
+                latin:keySpec="0x16F01"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER I -->
             <Key
-                latin:keySpec="&#x1023;"
+                latin:keySpec="0x16F02"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER I -->
             <Key
-                latin:keySpec="&#x104E;"
+                latin:keySpec="0x16F03"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SYMBOL AFOREMENTIONED -->
             <Key
-                latin:keySpec="&#x1024;"
+                latin:keySpec="0x16F04"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER II -->
             <Key
-                latin:keySpec="&#x104C;"
+                latin:keySpec="0x16F05"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER U -->
             <Key
-                latin:keySpec="&#x1025;"
+                latin:keySpec="0x16F06"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SYMBOL COMPLETED -->
             <Key
-                latin:keySpec="&#x104D;"
+                latin:keySpec="0x16F07"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER GREAT SA -->
             <Key
-                latin:keySpec="&#x103F;"
+                latin:keySpec="0x16F08"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER NNA -->
             <Key
-                latin:keySpec="&#x100F;"
+                latin:keySpec="0x16F09"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR LETTER E -->
             <Key
-                latin:keySpec="&#x1027;"
+                latin:keySpec="0x16F0A"
                 latin:moreKeys="("
                 latin:keyHintLabel="("
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER AU -->
             <Key
-                latin:keySpec="&#x102A;"
+                latin:keySpec="0x16F0B"
                 latin:moreKeys=")"
                 latin:keyHintLabel=")"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio|autoXScale" />
