@@ -48,9 +48,26 @@ public abstract class KeyStyle {
         mKeyMap.put("0x16F0D", "\uD81B\uDF0D");
         mKeyMap.put("0x16F0E", "\uD81B\uDF0E");
         mKeyMap.put("0x16F0F", "\uD81B\uDF0F");
+
         mKeyMap.put("0x16F10", "\uD81B\uDF10");
         mKeyMap.put("0x16F11", "\uD81B\uDF11");
         mKeyMap.put("0x16F12", "\uD81B\uDF12");
+        mKeyMap.put("0x16F13", "\uD81B\uDF13");
+        mKeyMap.put("0x16F14", "\uD81B\uDF14");
+        mKeyMap.put("0x16F15", "\uD81B\uDF15");
+        mKeyMap.put("0x16F16", "\uD81B\uDF16");
+        mKeyMap.put("0x16F17", "\uD81B\uDF17");
+        mKeyMap.put("0x16F18", "\uD81B\uDF18");
+        mKeyMap.put("0x16F19", "\uD81B\uDF19");
+        mKeyMap.put("0x16F1A", "\uD81B\uDF1A");
+        mKeyMap.put("0x16F1B", "\uD81B\uDF1B");
+        mKeyMap.put("0x16F1C", "\uD81B\uDF1C");
+        mKeyMap.put("0x16F1D", "\uD81B\uDF1D");
+        mKeyMap.put("0x16F1E", "\uD81B\uDF1E");
+        mKeyMap.put("0x16F1F", "\uD81B\uDF1F");
+
+        mKeyMap.put("0x16F20", "\uD81B\uDF20");
+        mKeyMap.put("0x16F21", "\uD81B\uDF21");
     }
 
     protected String parseString(final TypedArray a, final int index) {

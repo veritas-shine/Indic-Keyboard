@@ -27,6 +27,7 @@ import android.view.Gravity;
 import android.widget.TextView;
 
 import com.android.inputmethod.keyboard.Key;
+import com.android.inputmethod.keyboard.KeyboardView;
 
 import java.util.HashSet;
 
@@ -65,7 +66,9 @@ public class KeyPreviewView extends TextView {
         setCompoundDrawables(null, null, null, null);
         setTextColor(drawParams.mPreviewTextColor);
         setTextSize(TypedValue.COMPLEX_UNIT_PX, key.selectPreviewTextSize(drawParams));
-        setTypeface(key.selectPreviewTypeface(drawParams));
+//        setTypeface(key.selectPreviewTypeface(drawParams));
+        // 浮出的字体
+        setTypeface(KeyboardView.font());
         // TODO Should take care of temporaryShiftLabel here.
         setTextAndScaleX(key.getPreviewLabel());
     }

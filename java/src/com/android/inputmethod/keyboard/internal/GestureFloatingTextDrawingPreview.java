@@ -24,6 +24,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.text.TextUtils;
 
+import com.android.inputmethod.keyboard.KeyboardView;
 import com.android.inputmethod.keyboard.PointerTracker;
 
 import org.smc.inputmethod.indic.R;
@@ -59,6 +60,7 @@ public class GestureFloatingTextDrawingPreview extends AbstractDrawingPreview {
         private static final char[] TEXT_HEIGHT_REFERENCE_CHAR = { 'M' };
 
         public GesturePreviewTextParams(final TypedArray mainKeyboardViewAttr) {
+            mPaint.setTypeface(KeyboardView.font());
             mGesturePreviewTextSize = mainKeyboardViewAttr.getDimensionPixelSize(
                     R.styleable.MainKeyboardView_gestureFloatingPreviewTextSize, 0);
             mGesturePreviewTextColor = mainKeyboardViewAttr.getColor(

@@ -79,6 +79,7 @@ import com.android.inputmethod.latin.utils.TypefaceUtils;
  */
 public class KeyboardView extends View {
     private Typeface mAhmaoFont;
+    private static Typeface mFont;
     // XML attributes
     private final KeyVisualAttributes mKeyVisualAttributes;
     // Default keyLabelFlags from {@link KeyboardTheme}.
@@ -126,6 +127,7 @@ public class KeyboardView extends View {
     public KeyboardView(final Context context, final AttributeSet attrs, final int defStyle) {
         super(context, attrs, defStyle);
         mAhmaoFont = Typeface.createFromAsset(context.getAssets(), "fonts/MiaoUnicode-Regular.ttf");
+        mFont = mAhmaoFont;
         Log.e("MIAO", mAhmaoFont.toString());
         final TypedArray keyboardViewAttr = context.obtainStyledAttributes(attrs,
                 R.styleable.KeyboardView, defStyle, R.style.KeyboardView);
@@ -172,7 +174,9 @@ public class KeyboardView extends View {
         paint.setARGB((paint.getAlpha() * alpha) / Constants.Color.ALPHA_OPAQUE,
                 Color.red(color), Color.green(color), Color.blue(color));
     }
-
+    public static Typeface font() {
+        return mFont;
+    }
     public void setHardwareAcceleratedDrawingEnabled(final boolean enabled) {
         if (!enabled) return;
         // TODO: Should use LAYER_TYPE_SOFTWARE when hardware acceleration is off?

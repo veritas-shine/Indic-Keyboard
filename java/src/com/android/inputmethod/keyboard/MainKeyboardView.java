@@ -897,7 +897,8 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
         final int width = key.getWidth();
         final int height = key.getHeight();
         paint.setTextAlign(Align.CENTER);
-        paint.setTypeface(Typeface.DEFAULT);
+//        paint.setTypeface(Typeface.DEFAULT);
+        paint.setTypeface(KeyboardView.font());
         paint.setTextSize(mLanguageOnSpacebarTextSize);
         final InputMethodSubtype subtype = getKeyboard().mId.mSubtype;
         final String language = layoutLanguageOnSpacebar(paint, subtype, width);
