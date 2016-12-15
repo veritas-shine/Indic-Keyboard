@@ -65,39 +65,51 @@
         <default>
             <!-- MYANMAR LETTER PHA -->
              <Key
-                latin:keySpec="&#x1016;"
+                latin:keySpec="0x16F3B"
+                 latin:moreKeys="0x16F3C"
+                 latin:keyHintLabel="0x16F3C"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER THA -->
              <Key
-                latin:keySpec="&#x1011;"
+                latin:keySpec="0x16F27"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER KHA -->
              <Key
-                latin:keySpec="&#x1001;"
+                 latin:keySpec="0x16F37"
+                 latin:moreKeys="0x16F38"
+                 latin:keyHintLabel="0x16F38"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER LA
                  MYANMAR LETTER VOCALIC L -->
              <Key
-                latin:keySpec="&#x101C;"
-                latin:moreKeys="&#x1054;"
-                latin:keyHintLabel="&#x1054;"
+                latin:keySpec="0x16F08"
+                latin:moreKeys="0x16F09"
+                latin:keyHintLabel="0x16F09"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER BHA -->
              <Key
-                latin:keySpec="&#x1018;"
+                 latin:keySpec="0x16F3D"
+                 latin:moreKeys="0x16F3E"
+                 latin:keyHintLabel="0x16F3E"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR LETTER NNYA -->
              <Key
-                latin:keySpec="&#x100A;"
+                 latin:keySpec="0x16F28"
+                 latin:moreKeys="0x16F29"
+                 latin:keyHintLabel="0x16F29"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR VOWEL SIGN AA -->
              <Key
-                latin:keySpec="&#x102C;"
+                 latin:keySpec="0x16F10"
+                 latin:moreKeys="0x16F11"
+                 latin:keyHintLabel="0x16F11"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR SIGN SECTION -->
              <Key
-                latin:keySpec="&#x104B;"
-                latin:keyLabelFlags="fontNormal" />
+                 latin:keySpec="0x16F04"
+                 latin:moreKeys="0x16F05"
+                 latin:keyHintLabel="0x16F05"
+                 latin:keyLabelFlags="fontNormal" />
         </default>
     </switch>
 </merge>

@@ -61,17 +61,7 @@
                 latin:moreKeys="&#x100D;"
                 latin:keyHintLabel="&#x100D;"
                 latin:keyLabelFlags="fontNormal" />
-            <!-- MYANMAR LETTER DHA
-                 MYANMAR LETTER DDHA -->
-            <Key
-                latin:keySpec="&#x1013;"
-                latin:moreKeys="&#x100E;"
-                latin:keyHintLabel="&#x100E;"
-                latin:keyLabelFlags="fontNormal" />
-            <!-- MYANMAR LETTER GA -->
-            <Key
-                latin:keySpec="&#x1002;"
-                latin:keyLabelFlags="fontNormal" />
+
             <!-- MYANMAR LETTER SSA -->
             <Key
                 latin:keySpec="&#x1051;"
@@ -81,53 +71,61 @@
         <default>
             <!-- MYANMAR VOWEL SIGN E -->
             <Key
-               latin:keySpec="&#x1031;"
+               latin:keySpec="0x16F54"
+                latin:moreKeys="0x16F55"
+                latin:keyHintLabel="0x16F56"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR CONSONANT SIGN MEDIAL YA -->
             <Key
-               latin:keySpec="&#x103B;"
+                latin:keySpec="0x16F3A"
+                latin:moreKeys="0x16F3B"
+                latin:keyHintLabel="0x16F3B"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR VOWEL SIGN I -->
             <Key
-               latin:keySpec="&#x102D;"
+                latin:keySpec="0x16F1A"
+                latin:moreKeys="0x16F1B"
+                latin:keyHintLabel="0x16F1B"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SIGN ASAT -->
             <Key
-               latin:keySpec="&#x103A;"
+                latin:keySpec="0x16F14"
+                latin:moreKeys="0x16F15"
+                latin:keyHintLabel="0x16F15"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR VOWEL SIGN TALL AA -->
             <Key
-               latin:keySpec="&#x102B;"
+                latin:keySpec="0x16F23"
+                latin:moreKeys="0x16F24"
+                latin:keyHintLabel="0x16F24"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SIGN DOT BELOW -->
             <Key
-               latin:keySpec="&#x1037;"
+                latin:keySpec="0x16F26"
+                latin:moreKeys="0x16F27"
+                latin:keyHintLabel="0x16F27"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR CONSONANT SIGN MEDIAL RA
                  MYANMAR LETTER RA
                  MYANMAR LETTER VOCALIC R
                  MYANMAR LETTER VOCALIC RR -->
             <Key
-               latin:keySpec="&#x103C;"
-               latin:keyHintLabel="&#x101B;"
-               latin:moreKeys="&#x101B;,&#x1052;,&#x1053;"
+                latin:keySpec="0x16F33"
+                latin:moreKeys="0x16F34"
+                latin:keyHintLabel="0x16F34"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR VOWEL SIGN U -->
+
             <Key
-               latin:keySpec="&#x102F;"
-               latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR VOWEL SIGN UU -->
-            <Key
-               latin:keySpec="&#x1030;"
-               latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR SIGN VISARGA -->
-            <Key
-               latin:keySpec="&#x1038;"
+                latin:keySpec="0x16F1E"
+                latin:moreKeys="0x16F1F"
+                latin:keyHintLabel="0x16F1F"
                latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR SYMBOL GENITIVE -->
             <Key
-              latin:keySpec="&#x104F;"
-              latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
+                latin:keySpec="0x16F16"
+                latin:moreKeys="0x16F17"
+                latin:keyHintLabel="0x16F18"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
         </default>
     </switch>
 </merge>
