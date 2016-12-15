@@ -209,7 +209,7 @@ public final class MoreKeySpec {
                     // Replace '%' marker with additional more key specification.
                     final String additionalMoreKey = additionalMoreKeys[additionalIndex];
                     if (out != null) {
-                        out.add(additionalMoreKey);
+                        out.add(KeyStyle.map(additionalMoreKey));
                     } else {
                         moreKeys[moreKeyIndex] = additionalMoreKey;
                     }
@@ -222,7 +222,7 @@ public final class MoreKeySpec {
                 }
             } else {
                 if (out != null) {
-                    out.add(moreKeySpec);
+                    out.add(KeyStyle.map(moreKeySpec));
                 }
             }
         }
@@ -236,7 +236,7 @@ public final class MoreKeySpec {
             }
             out = CollectionUtils.arrayAsList(additionalMoreKeys, additionalIndex, additionalCount);
             for (int i = 0; i < moreKeysCount; i++) {
-                out.add(moreKeys[i]);
+                out.add(KeyStyle.map(moreKeys[i]));
             }
         } else if (additionalIndex < additionalCount) {
             // The number of '%' markers are less than additional more keys.
@@ -248,7 +248,7 @@ public final class MoreKeySpec {
             }
             out = CollectionUtils.arrayAsList(moreKeys, 0, moreKeysCount);
             for (int i = additionalIndex; i < additionalCount; i++) {
-                out.add(additionalMoreKeys[additionalIndex]);
+                out.add(KeyStyle.map(additionalMoreKeys[additionalIndex]));
             }
         }
         if (out == null && moreKeysCount > 0) {
