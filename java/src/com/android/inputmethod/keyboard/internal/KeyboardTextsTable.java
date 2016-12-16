@@ -710,7 +710,7 @@ public final class KeyboardTextsTable {
         /* keyspec_symbols_9 */ "\u1049",
         /* keyspec_symbols_0 */ "\u1040",
         // Label for "switch to symbols" key.
-        /* keylabel_to_symbol */ "\u1041",
+        /* keylabel_to_symbol */ "Space",
     };
 
     /* Locale ne_NP: Nepali (Nepal) */
