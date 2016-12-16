@@ -688,7 +688,7 @@ public final class KeyboardTextsTable {
 
     /* Locale my: Burmese */
     private static final String[] TEXTS_my = {
-        /* keylabel_to_alpha */ "\u1000",
+        /* keylabel_to_alpha */ "\uD81B\uDF37",
         /* additional_morekeys_symbols_1 */ "1",
         /* additional_morekeys_symbols_2 */ "2",
         /* additional_morekeys_symbols_3 */ "3",
@@ -699,18 +699,18 @@ public final class KeyboardTextsTable {
         /* additional_morekeys_symbols_8 */ "8",
         /* additional_morekeys_symbols_9 */ "9",
         /* additional_morekeys_symbols_0 */ "0",
-        /* keyspec_symbols_1 */ "\u1041",
-        /* keyspec_symbols_2 */ "\u1042",
-        /* keyspec_symbols_3 */ "\u1043",
-        /* keyspec_symbols_4 */ "\u1044",
-        /* keyspec_symbols_5 */ "\u1045",
-        /* keyspec_symbols_6 */ "\u1046",
-        /* keyspec_symbols_7 */ "\u1047",
-        /* keyspec_symbols_8 */ "\u1048",
-        /* keyspec_symbols_9 */ "\u1049",
-        /* keyspec_symbols_0 */ "\u1040",
+        /* keyspec_symbols_1 */ "1",
+        /* keyspec_symbols_2 */ "2",
+        /* keyspec_symbols_3 */ "3",
+        /* keyspec_symbols_4 */ "4",
+        /* keyspec_symbols_5 */ "5",
+        /* keyspec_symbols_6 */ "6",
+        /* keyspec_symbols_7 */ "7",
+        /* keyspec_symbols_8 */ "8",
+        /* keyspec_symbols_9 */ "9",
+        /* keyspec_symbols_0 */ "0",
         // Label for "switch to symbols" key.
-        /* keylabel_to_symbol */ "Space",
+        /* keylabel_to_symbol */ "123",
     };
 
     /* Locale ne_NP: Nepali (Nepal) */
