@@ -173,6 +173,17 @@ public final class MoreKeySpec {
 
     private static final String[] EMPTY_STRING_ARRAY = new String[0];
 
+    private static String[] _mapString(final String[] array) {
+        if (array == null) {
+            return EMPTY_STRING_ARRAY;
+        }
+        ArrayList<String> out = new ArrayList<>();
+        for (int i = 0; i < array.length; ++i) {
+            out.add(KeyStyle.map(array[i]));
+        }
+        return out.toArray(new String[out.size()]);
+    }
+
     private static String[] filterOutEmptyString(final String[] array) {
         if (array == null) {
             return EMPTY_STRING_ARRAY;
@@ -196,7 +207,7 @@ public final class MoreKeySpec {
 
     public static String[] insertAdditionalMoreKeys(final String[] moreKeySpecs,
             final String[] additionalMoreKeySpecs) {
-        final String[] moreKeys = filterOutEmptyString(moreKeySpecs);
+        final String[] moreKeys = filterOutEmptyString(_mapString(moreKeySpecs));
         final String[] additionalMoreKeys = filterOutEmptyString(additionalMoreKeySpecs);
         final int moreKeysCount = moreKeys.length;
         final int additionalCount = additionalMoreKeys.length;
