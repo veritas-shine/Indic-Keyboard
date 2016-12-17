@@ -53,7 +53,7 @@ public final class DictionaryService extends Service {
     /**
      * The package name, to use in the intent actions.
      */
-    private static final String PACKAGE_NAME = "org.smc.inputmethod.indic";
+    private static final String PACKAGE_NAME = "org.smc.inputmethod.miao";
 
     /**
      * The action of the date changing, used to schedule a periodic freshness check

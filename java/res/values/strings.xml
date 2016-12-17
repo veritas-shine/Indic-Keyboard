@@ -331,15 +331,15 @@ mobile devices. [CHAR LIMIT=25] -->
     <string name="button_default">Default</string>
 
     <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
-    <string name="setup_welcome_title">"Welcome to <xliff:g id="application_name">%s</xliff:g>"</string>
+    <string name="setup_welcome_title">"欢迎使用 <xliff:g id="application_name">%s</xliff:g>"</string>
     <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
     <string name="setup_welcome_additional_description">伯格里苗文输入法"</string>
     <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
-    <string name="setup_start_action">Get started</string>
+    <string name="setup_start_action">开始</string>
     <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
-    <string name="setup_next_action">Next step</string>
+    <string name="setup_next_action">下一步</string>
     <!-- Title of the setup wizard. [CHAR LIMT=40] -->
-    <string name="setup_steps_title">"Setting up <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_steps_title">"设置 <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
     <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
     <string name="setup_step1_bullet" translatable="false">1</string>
     <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
@@ -353,24 +353,24 @@ mobile devices. [CHAR LIMIT=25] -->
     <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
     <string name="setup_step2_bullet" translatable="false">2</string>
     <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
-    <string name="setup_step2_title">"Switch to <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+    <string name="setup_step2_title">"打开 <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
     <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
-    <string name="setup_step2_instruction">"Next, select \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" as your active text-input method."</string>
+    <string name="setup_step2_instruction">"然后，选择 \"<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>\" 作为您当前的输入法。"</string>
     <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
-    <string name="setup_step2_action">Switch input methods</string>
+    <string name="setup_step2_action">切换输入法</string>
     <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
     <string name="setup_step3_bullet" translatable="false">3</string>
     <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
-    <string name="setup_step3_title">"Select languages"</string>
-    <string name="setup_step3_instruction">Select the languages and layouts you want to use.</string>
-    <string name="setup_step3_action">Configure languages</string>
+    <string name="setup_step3_title">"选择语言"</string>
+    <string name="setup_step3_instruction">选择语言和键盘布局</string>
+    <string name="setup_step3_action">配置语言</string>
     <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
     <string name="setup_step4_bullet" translatable="false">4</string>
-    <string name="setup_step4_title">"Congratulations, you're all set!"</string>
+    <string name="setup_step4_title">"祝贺你，您已经设置完毕！"</string>
     <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
-    <string name="setup_step4_instruction">Now you can type in all your favorite apps with <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>.</string>
+    <string name="setup_step4_instruction">现在，您可以使用 <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> 了。</string>
     <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
-    <string name="setup_finish_action">Finished</string>
+    <string name="setup_finish_action">完成</string>
     <!-- Option to show setup wizard icon. [CHAR LIMIT=30]-->
     <string name="show_setup_wizard_icon">Show app icon</string>
     <!-- Description for the option to show setup wizard application icon of this IME in the laucher. [CHAR_LIMIT=65] -->

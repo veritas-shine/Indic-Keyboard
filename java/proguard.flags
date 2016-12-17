@@ -17,8 +17,8 @@
 
 # Keep classes that are used as a parameter type of methods that are also marked as keep
 # to preserve changing those methods' signature.
--keep class org.smc.inputmethod.indic.AssetFileAddress
--keep class org.smc.inputmethod.indic.Dictionary
+-keep class org.smc.inputmethod.miao.AssetFileAddress
+-keep class org.smc.inputmethod.miao.Dictionary
 -keep class com.android.inputmethod.latin.PrevWordsInfo
 -keep class com.android.inputmethod.latin.makedict.ProbabilityInfo
 -keep class com.android.inputmethod.latin.utils.LanguageModelParam

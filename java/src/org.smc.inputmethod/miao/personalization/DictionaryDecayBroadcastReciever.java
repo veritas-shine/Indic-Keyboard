@@ -32,7 +32,7 @@ public class DictionaryDecayBroadcastReciever extends BroadcastReceiver {
      * The root domain for the personalization.
      */
     private static final String PERSONALIZATION_DOMAIN =
-            "org.smc.inputmethod.indic.personalization";
+            "org.smc.inputmethod.miao.personalization";
 
     /**
      * The action of the intent to tell the time to decay dictionaries.
