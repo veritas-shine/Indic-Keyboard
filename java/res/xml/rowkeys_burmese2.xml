@@ -26,50 +26,43 @@
         <case
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
             >
-            <!-- MYANMAR LETTER BA -->
             <Key
-                latin:keySpec="&#x1017;"
-                latin:keyLabelFlags="fontNormal" />
-            <!-- MYANMAR CONSONANT SIGN MEDIAL HA -->
-            <Key
-                latin:keySpec="&#x103E;"
+                latin:keySpec="0x16F56"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR VOWEL SIGN II -->
             <Key
-                latin:keySpec="&#x102E;"
+                latin:keySpec="0x16F2B"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR SIGN VIRAMA -->
             <Key
-                latin:keySpec="&#x1039;"
+                latin:keySpec="0x16F2C"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR CONSONANT SIGN MEDIAL WA -->
             <Key
-                latin:keySpec="&#x103D;"
+                latin:keySpec="0x16F3B"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR SIGN ANUSVARA -->
             <Key
-                latin:keySpec="&#x1036;"
+                latin:keySpec="0x16F1B"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR VOWEL SIGN AI -->
             <Key
-                latin:keySpec="&#x1032;"
+                latin:keySpec="0x16F07"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER DA
-                 MYANMAR LETTER DDA -->
             <Key
-                latin:keySpec="&#x1012;"
-                latin:moreKeys="&#x100D;"
-                latin:keyHintLabel="&#x100D;"
-                latin:keyLabelFlags="fontNormal" />
+                latin:keySpec="0x16F24"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
+            <Key
+                latin:keySpec="0x16F27"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
+            <Key
+                latin:keySpec="0x16F34"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
 
-            <!-- MYANMAR LETTER SSA -->
             <Key
-                latin:keySpec="&#x1051;"
+                latin:keySpec="0x16F1F"
                 latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F32"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
         </case>
 
         <default>
-            <!-- MYANMAR VOWEL SIGN E -->
             <Key
                latin:keySpec="0x16F54"
                 latin:moreKeys="0x16F55,0x16F56,0x16F57,0x16F58"

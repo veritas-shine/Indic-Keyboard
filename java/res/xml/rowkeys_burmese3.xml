@@ -26,44 +26,32 @@
         <case
             latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted"
             >
-            <!-- MYANMAR LETTER JA -->
-             <Key
-                latin:keySpec="&#x1007;"
+            <Key
+                latin:keySpec="0x16F3C"
                 latin:keyLabelFlags="fontNormal" />
-            <!-- MYANMAR LETTER TTHA -->
-             <Key
-                latin:keySpec="&#x100C;"
+            <Key
+                latin:keySpec="0x16F27"
+                latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F38"
+                latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F09"
+                latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F3E"
+                latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F29"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER GHA -->
-             <Key
-                latin:keySpec="&#x1003;"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER LLA
-                 MYANMAR LETTER VOCALIC LL -->
-             <Key
-                latin:keySpec="&#x1020;"
-                latin:moreKeys="&#x1055;"
-                latin:keyHintLabel="&#x1055;"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER YA -->
-             <Key
-                latin:keySpec="&#x101A;"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER NYA -->
-             <Key
-                latin:keySpec="&#x1009;"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR LETTER UUA -->
-             <Key
-                latin:keySpec="&#x1026;"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR SIGN LITTLE SECTION -->
-             <Key
-                latin:keySpec="&#x104A;"
+            <Key
+                latin:keySpec="0x16F11"
+                latin:keyLabelFlags="fontNormal" />
+            <Key
+                latin:keySpec="0x16F05"
                 latin:keyLabelFlags="fontNormal" />
         </case>
         <default>
-            <!-- MYANMAR LETTER PHA -->
              <Key
                 latin:keySpec="0x16F3B"
                  latin:moreKeys="0x16F3C"

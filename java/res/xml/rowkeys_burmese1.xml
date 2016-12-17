@@ -21,53 +21,46 @@
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto">
     <switch>
         <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
-            <!-- MYANMAR LETTER JHA -->
-            <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F00" />
-            <!-- MYANMAR LETTER WA -->
             <Key
                 latin:keyLabelFlags="fontNormal"
-                latin:keySpec="0x16F01" />
-            <!-- MYANMAR LETTER I -->
+                latin:keySpec="0x16F18" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F02" />
-            <!-- MYANMAR LETTER I -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F22" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F03" />
-            <!-- MYANMAR SYMBOL AFOREMENTIONED -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F15" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F04" />
-            <!-- MYANMAR LETTER II -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F2E" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F05" />
-            <!-- MYANMAR LETTER U -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F36" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F06" />
-            <!-- MYANMAR SYMBOL COMPLETED -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F0B" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F07" />
-            <!-- MYANMAR LETTER GREAT SA -->
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F44" />
             <Key
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
-                latin:keySpec="0x16F08" />
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F6A" />
+            <Key
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F62" />
 
-            <!-- MYANMAR LETTER AU -->
             <Key
-                latin:keyHintLabel=")"
-                latin:keyLabelFlags="fontNormal|followKeyLetterRatio|autoXScale"
-                latin:keySpec="0x16F0B"
-                latin:moreKeys=")" />
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F5A" />
+            <Key
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F0F" />
+            <Key
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
+                latin:keySpec="0x16F01" />
         </case>
 
         <default>
-            <!-- MYANMAR LETTER CHA -->
             <Key
                 latin:keyLabelFlags="fontNormal"
                 latin:keySpec="0x16F16"
