@@ -72,7 +72,7 @@
             <!-- MYANMAR VOWEL SIGN E -->
             <Key
                latin:keySpec="0x16F54"
-                latin:moreKeys="0x16F55"
+                latin:moreKeys="0x16F55,0x16F56,0x16F57,0x16F58"
                 latin:keyHintLabel="0x16F56"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <Key

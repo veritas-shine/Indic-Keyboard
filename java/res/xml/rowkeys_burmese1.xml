@@ -88,7 +88,7 @@
                 latin:keyHintLabel="0x16F2E"
                 latin:keyLabelFlags="fontNormal"
                 latin:keySpec="0x16F2D"
-                latin:moreKeys="0x16F2E" />
+                latin:moreKeys="0x16F2E,0x16F5D,0x16F5E,0x16F5F,0x16F60" />
             <!-- MYANMAR LETTER MA -->
             <Key
                 latin:keyHintLabel="0x16F36"
@@ -115,16 +115,16 @@
                 latin:moreKeys="0x16F6A,0x16F6B,0x16F6C,0x16F6D,0x16F6E,0x16F6F,0x16F70" />
             <!-- MYANMAR LETTER NGA -->
             <Key
-                latin:keyHintLabel="0x16F63"
+                latin:keyHintLabel="0x16F62"
                 latin:keyLabelFlags="fontNormal"
                 latin:keySpec="0x16F61"
-                latin:moreKeys="0x16F62" />
-            <!-- MYANMAR LETTER SA -->
+                latin:moreKeys="0x16F62,0x16F63,0x16F64,0x16F65,0x16F66,0x16F67,0x16F68,0x16F69" />
+
             <Key
                 latin:keyHintLabel="0x16F5B"
                 latin:keyLabelFlags="fontNormal"
                 latin:keySpec="0x16F59"
-                latin:moreKeys="0x16F5A" />
+                latin:moreKeys="0x16F5A,0x16F5B" />
             <Key
                 latin:keyHintLabel="0x16F0F"
                 latin:keyLabelFlags="fontNormal"
