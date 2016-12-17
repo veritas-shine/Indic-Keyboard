@@ -21,7 +21,7 @@ import android.os.Message;
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.internal.DrawingHandler.Callbacks;
 
-import org.smc.inputmethod.indic.SuggestedWords;
+import org.smc.inputmethod.miao.SuggestedWords;
 import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 
 // TODO: Separate this class into KeyPreviewHandler and BatchInputPreviewHandler or so.

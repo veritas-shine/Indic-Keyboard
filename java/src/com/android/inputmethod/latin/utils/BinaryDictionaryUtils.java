@@ -28,7 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.personalization.PersonalizationHelper;
+import org.smc.inputmethod.miao.personalization.PersonalizationHelper;
 
 public final class BinaryDictionaryUtils {
     private static final String TAG = BinaryDictionaryUtils.class.getSimpleName();

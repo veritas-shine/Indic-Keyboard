@@ -22,10 +22,10 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import org.smc.inputmethod.indic.Dictionary;
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
-import org.smc.inputmethod.indic.WordComposer;
-import org.smc.inputmethod.indic.settings.SettingsValuesForSuggestion;
+import org.smc.inputmethod.miao.Dictionary;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.WordComposer;
+import org.smc.inputmethod.miao.settings.SettingsValuesForSuggestion;
 
 /**
  * This class provides binary dictionary reading operations with locking. An instance of this class

@@ -16,7 +16,7 @@
 
 package com.android.inputmethod.latin.utils;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 import android.content.Context;
 

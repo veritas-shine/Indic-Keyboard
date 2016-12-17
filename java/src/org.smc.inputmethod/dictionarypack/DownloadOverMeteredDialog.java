@@ -26,7 +26,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * This implements the dialog for asking the user whether it's okay to download dictionaries over

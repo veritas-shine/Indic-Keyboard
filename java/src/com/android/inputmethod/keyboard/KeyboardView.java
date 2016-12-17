@@ -39,8 +39,8 @@ import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
 
 import java.util.HashSet;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.TypefaceUtils;
 
 /**

@@ -34,11 +34,11 @@ import com.android.inputmethod.keyboard.internal.TypingTimeRecorder;
 
 import java.util.ArrayList;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.InputPointers;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.define.DebugFlags;
-import org.smc.inputmethod.indic.settings.Settings;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.InputPointers;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.define.DebugFlags;
+import org.smc.inputmethod.miao.settings.Settings;
 import com.android.inputmethod.latin.utils.CoordinateUtils;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 

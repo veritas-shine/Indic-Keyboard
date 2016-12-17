@@ -20,7 +20,7 @@ import android.text.TextUtils;
 
 import java.util.Arrays;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 import com.android.inputmethod.latin.utils.StringUtils;
 
 /**

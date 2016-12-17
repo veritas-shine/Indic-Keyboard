@@ -39,8 +39,8 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 import com.android.inputmethod.latin.utils.StringUtils;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;

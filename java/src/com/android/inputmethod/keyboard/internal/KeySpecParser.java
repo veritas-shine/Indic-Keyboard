@@ -16,11 +16,11 @@
 
 package com.android.inputmethod.keyboard.internal;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 import com.android.inputmethod.latin.utils.StringUtils;
 
-import static org.smc.inputmethod.indic.Constants.CODE_OUTPUT_TEXT;
-import static org.smc.inputmethod.indic.Constants.CODE_UNSPECIFIED;
+import static org.smc.inputmethod.miao.Constants.CODE_OUTPUT_TEXT;
+import static org.smc.inputmethod.miao.Constants.CODE_UNSPECIFIED;
 
 /**
  * The string parser of the key specification.

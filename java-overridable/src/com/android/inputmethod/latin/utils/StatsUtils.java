@@ -17,7 +17,7 @@
 package com.android.inputmethod.latin.utils;
 
 import android.content.Context;
-import org.smc.inputmethod.indic.settings.SettingsValues;
+import org.smc.inputmethod.miao.settings.SettingsValues;
 
 public final class StatsUtils {
     public static void init(final Context context) {

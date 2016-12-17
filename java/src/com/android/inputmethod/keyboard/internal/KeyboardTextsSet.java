@@ -21,7 +21,7 @@ import android.content.res.Resources;
 import android.text.TextUtils;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 import com.android.inputmethod.latin.utils.RunInLocale;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
 

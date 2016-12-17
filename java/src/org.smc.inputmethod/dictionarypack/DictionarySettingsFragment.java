@@ -46,7 +46,7 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.TreeMap;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * Preference screen.

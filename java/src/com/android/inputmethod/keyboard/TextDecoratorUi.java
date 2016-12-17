@@ -37,7 +37,7 @@ import android.view.ViewParent;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * Used as the UI component of {@link TextDecorator}.

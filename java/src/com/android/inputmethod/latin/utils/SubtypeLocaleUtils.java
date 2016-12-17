@@ -26,11 +26,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
 
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
 
 public final class SubtypeLocaleUtils {
     private static final String TAG = SubtypeLocaleUtils.class.getSimpleName();

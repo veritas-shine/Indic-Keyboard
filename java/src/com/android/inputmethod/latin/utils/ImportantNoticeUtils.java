@@ -26,7 +26,7 @@ import android.util.Log;
 import java.util.concurrent.TimeUnit;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class ImportantNoticeUtils {
     private static final String TAG = ImportantNoticeUtils.class.getSimpleName();

@@ -24,8 +24,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.define.DebugFlags;
 import com.android.inputmethod.latin.utils.CollectionUtils;
 import com.android.inputmethod.latin.utils.StringUtils;
 

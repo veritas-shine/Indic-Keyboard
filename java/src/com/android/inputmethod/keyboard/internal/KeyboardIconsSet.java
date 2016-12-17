@@ -24,7 +24,7 @@ import android.util.SparseIntArray;
 
 import java.util.HashMap;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class KeyboardIconsSet {
     private static final String TAG = KeyboardIconsSet.class.getSimpleName();

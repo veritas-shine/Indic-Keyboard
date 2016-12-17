@@ -26,9 +26,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
-import static org.smc.inputmethod.indic.Constants.CODE_UNSPECIFIED;
+import static org.smc.inputmethod.miao.Constants.CODE_UNSPECIFIED;
 
 public final class StringUtils {
     public static final int CAPITALIZE_NONE = 0;  // No caps, or mixed case

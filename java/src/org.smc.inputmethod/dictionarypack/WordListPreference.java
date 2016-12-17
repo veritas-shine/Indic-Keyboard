@@ -28,7 +28,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * A preference for one word list.

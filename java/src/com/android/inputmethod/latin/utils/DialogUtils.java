@@ -19,7 +19,7 @@ package com.android.inputmethod.latin.utils;
 import android.content.Context;
 import android.view.ContextThemeWrapper;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class DialogUtils {
     private DialogUtils() {

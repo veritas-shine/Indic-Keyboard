@@ -30,7 +30,7 @@ import com.android.inputmethod.keyboard.KeyboardId;
 import com.android.inputmethod.keyboard.MainKeyboardView;
 import com.android.inputmethod.keyboard.PointerTracker;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 /**

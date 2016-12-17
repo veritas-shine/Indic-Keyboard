@@ -24,7 +24,7 @@ import com.android.inputmethod.keyboard.internal.KeyboardParams;
 import com.android.inputmethod.keyboard.internal.MoreKeySpec;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.StringUtils;
 import com.android.inputmethod.latin.utils.TypefaceUtils;
 

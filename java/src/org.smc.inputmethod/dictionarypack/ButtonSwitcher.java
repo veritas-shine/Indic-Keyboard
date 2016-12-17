@@ -25,7 +25,7 @@ import android.view.ViewPropertyAnimator;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * A view that handles buttons inside it according to a status.

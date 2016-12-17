@@ -23,11 +23,11 @@
     <ListPreference
         android:key="pref_key_preview_popup_dismiss_delay"
         android:title="@string/key_preview_popup_dismiss_delay" />
-    <org.smc.inputmethod.indic.settings.SeekBarDialogPreference
+    <org.smc.inputmethod.miao.settings.SeekBarDialogPreference
         android:key="pref_vibration_duration_settings"
         android:title="@string/prefs_keypress_vibration_duration_settings"
         latin:maxValue="@integer/config_max_vibration_duration" />
-    <org.smc.inputmethod.indic.settings.SeekBarDialogPreference
+    <org.smc.inputmethod.miao.settings.SeekBarDialogPreference
         android:key="pref_keypress_sound_volume"
         android:title="@string/prefs_keypress_sound_volume_settings"
         latin:maxValue="100" /> <!-- percent -->
@@ -44,7 +44,7 @@
         android:defaultValue="true"
         android:persistent="true" />
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.DebugSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.DebugSettingsFragment"
         android:key="screen_debug"
         android:title="Debug settings"
         android:defaultValue="false"

@@ -23,7 +23,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 public final class InputMethodSubtypeCompatUtils {
     private static final String TAG = InputMethodSubtypeCompatUtils.class.getSimpleName();

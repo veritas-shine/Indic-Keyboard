@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.smc.inputmethod.indic;
+package org.smc.inputmethod.miao;
 
 import android.content.Context;
 import android.view.KeyEvent;

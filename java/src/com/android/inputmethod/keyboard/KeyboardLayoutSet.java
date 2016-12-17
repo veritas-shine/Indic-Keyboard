@@ -40,17 +40,17 @@ import java.util.HashMap;
 
 import org.smc.inputmethod.compat.EditorInfoCompatUtils;
 import org.smc.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import org.smc.inputmethod.indic.InputAttributes;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.SubtypeSwitcher;
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.InputAttributes;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.SubtypeSwitcher;
+import org.smc.inputmethod.miao.define.DebugFlags;
 import com.android.inputmethod.latin.utils.InputTypeUtils;
 import com.android.inputmethod.latin.utils.ScriptUtils;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
 import com.android.inputmethod.latin.utils.XmlParseUtils;
 
-import static org.smc.inputmethod.indic.Constants.ImeOption.FORCE_ASCII;
-import static org.smc.inputmethod.indic.Constants.ImeOption.NO_SETTINGS_KEY;
+import static org.smc.inputmethod.miao.Constants.ImeOption.FORCE_ASCII;
+import static org.smc.inputmethod.miao.Constants.ImeOption.NO_SETTINGS_KEY;
 
 /**
  * This class represents a set of keyboard layouts. Each of them represents a different keyboard

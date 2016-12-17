@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         coreApp="true"
-        package="org.smc.inputmethod.indic"
+        package="org.smc.inputmethod.miao"
         android:versionCode="22"
         android:versionName="2.0.2">
 
@@ -36,7 +36,7 @@
             android:supportsRtl="true"
             android:allowBackup="true">
 
-        <service android:name="LatinIME"
+        <service android:name="org.smc.inputmethod.miao.LatinIME"
                 android:label="@string/english_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -45,7 +45,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <service android:name=".spellcheck.AndroidSpellCheckerService"
+        <service android:name="org.smc.inputmethod.miao.spellcheck.AndroidSpellCheckerService"
                  android:label="@string/spell_checker_service_name"
                  android:permission="android.permission.BIND_TEXT_SERVICE">
             <intent-filter>
@@ -55,7 +55,7 @@
                     android:resource="@xml/spellchecker" />
         </service>
 
-        <activity android:name=".setup.SetupActivity"
+        <activity android:name="org.smc.inputmethod.miao.setup.SetupActivity"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/english_ime_name"
                 android:icon="@drawable/ic_launcher_keyboard"
@@ -67,7 +67,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".setup.SetupWizardActivity"
+        <activity android:name="org.smc.inputmethod.miao.setup.SetupWizardActivity"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/english_ime_name"
                 android:clearTaskOnLaunch="true">
@@ -76,7 +76,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="SystemBroadcastReceiver">
+        <receiver android:name="org.smc.inputmethod.miao.SystemBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -85,7 +85,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".settings.SettingsActivity"
+        <activity android:name="org.smc.inputmethod.miao.settings.SettingsActivity"
                 android:theme="@style/platformSettingsTheme"
                 android:label="@string/english_ime_settings"
                 android:uiOptions="splitActionBarWhenNarrow">
@@ -94,7 +94,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spellcheck.SpellCheckerSettingsActivity"
+        <activity android:name="org.smc.inputmethod.miao.spellcheck.SpellCheckerSettingsActivity"
                   android:theme="@style/platformSettingsTheme"
                   android:label="@string/android_spell_checker_settings">
             <intent-filter>
@@ -102,20 +102,20 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="SuggestionSpanPickedNotificationReceiver" android:enabled="true">
+        <receiver android:name="org.smc.inputmethod.miao.SuggestionSpanPickedNotificationReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="android.text.style.SUGGESTION_PICKED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".personalization.DictionaryDecayBroadcastReciever"
+        <receiver android:name="org.smc.inputmethod.miao.personalization.DictionaryDecayBroadcastReciever"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.smc.inputmethod.indic.personalization.DICT_DECAY" />
+                <action android:name="org.smc.inputmethod.miao.personalization.DICT_DECAY" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".DictionaryPackInstallBroadcastReceiver" android:exported="false">
+        <receiver android:name="org.smc.inputmethod.miao.DictionaryPackInstallBroadcastReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="org.smc.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
             </intent-filter>

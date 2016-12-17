@@ -26,7 +26,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.util.Arrays;
 import java.util.HashMap;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.XmlParseUtils;
 
 public final class KeyStylesSet {

@@ -20,9 +20,9 @@ import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.define.DebugFlags;
 
 // This hack is applied to certain classes of tablets.
 public final class BogusMoveEventDetector {

@@ -33,8 +33,8 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.inputmethod.EditorInfo;
 
 import org.smc.inputmethod.compat.SettingsSecureCompatUtils;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.SuggestedWords;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.SuggestedWords;
 import com.android.inputmethod.latin.utils.InputTypeUtils;
 
 public final class AccessibilityUtils {

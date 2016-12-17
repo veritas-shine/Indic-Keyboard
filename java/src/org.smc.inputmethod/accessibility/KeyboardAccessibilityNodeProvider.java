@@ -34,8 +34,8 @@ import com.android.inputmethod.keyboard.KeyboardView;
 
 import java.util.List;
 
-import org.smc.inputmethod.indic.settings.Settings;
-import org.smc.inputmethod.indic.settings.SettingsValues;
+import org.smc.inputmethod.miao.settings.Settings;
+import org.smc.inputmethod.miao.settings.SettingsValues;
 import com.android.inputmethod.latin.utils.CoordinateUtils;
 
 /**

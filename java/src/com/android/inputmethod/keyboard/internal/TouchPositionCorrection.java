@@ -17,7 +17,7 @@
 package com.android.inputmethod.keyboard.internal;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.define.DebugFlags;
 
 public final class TouchPositionCorrection {
     private static final int TOUCH_POSITION_CORRECTION_RECORD_SIZE = 3;

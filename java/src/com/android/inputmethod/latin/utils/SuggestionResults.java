@@ -22,8 +22,8 @@ import java.util.Comparator;
 import java.util.Locale;
 import java.util.TreeSet;
 
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
-import org.smc.inputmethod.indic.define.ProductionFlags;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.define.ProductionFlags;
 
 /**
  * A TreeSet of SuggestedWordInfo that is bounded in size and throws everything that's smaller

@@ -36,7 +36,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.DebugLogUtils;
 
 /**

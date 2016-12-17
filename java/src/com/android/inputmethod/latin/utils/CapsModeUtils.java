@@ -21,9 +21,9 @@ import android.text.TextUtils;
 
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.WordComposer;
-import org.smc.inputmethod.indic.settings.SpacingAndPunctuations;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.WordComposer;
+import org.smc.inputmethod.miao.settings.SpacingAndPunctuations;
 
 public final class CapsModeUtils {
     private CapsModeUtils() {

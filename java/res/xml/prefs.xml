@@ -19,15 +19,15 @@
     xmlns:latin="http://schemas.android.com/apk/res-auto"
     android:key="english_ime_settings">
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.PreferencesSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.PreferencesSettingsFragment"
         android:title="@string/settings_screen_preferences"
         android:key="screen_preferences" />
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.AppearanceSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.AppearanceSettingsFragment"
         android:title="@string/settings_screen_appearance"
         android:key="screen_appearance" />
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.MultiLingualSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.MultiLingualSettingsFragment"
         android:title="@string/settings_screen_multilingual"
         android:key="screen_multilingual" />
     <!--
@@ -37,11 +37,11 @@
         android:key="screen_gesture" />
     -->
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.CorrectionSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.CorrectionSettingsFragment"
         android:title="@string/settings_screen_correction"
         android:key="screen_correction" />
     <PreferenceScreen
-        android:fragment="org.smc.inputmethod.indic.settings.AdvancedSettingsFragment"
+        android:fragment="org.smc.inputmethod.miao.settings.AdvancedSettingsFragment"
         android:title="@string/settings_screen_advanced"
         android:key="screen_advanced" />
 </PreferenceScreen>

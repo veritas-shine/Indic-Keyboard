@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.smc.inputmethod.indic.define;
+package org.smc.inputmethod.miao.define;
 
 import android.content.SharedPreferences;
 

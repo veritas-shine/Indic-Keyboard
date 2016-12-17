@@ -18,7 +18,7 @@ package com.android.inputmethod.keyboard.internal;
 
 import java.util.HashMap;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 public final class KeyboardCodesSet {
     public static final String PREFIX_CODE = "!code/";

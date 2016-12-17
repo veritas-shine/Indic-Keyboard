@@ -18,7 +18,7 @@ package com.android.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.define.DebugFlags;
 
 /**
  * A class for logging and debugging utility methods.

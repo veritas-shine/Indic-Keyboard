@@ -26,10 +26,10 @@ import android.text.style.SuggestionSpan;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
-import org.smc.inputmethod.indic.SuggestedWords;
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
-import org.smc.inputmethod.indic.SuggestionSpanPickedNotificationReceiver;
-import org.smc.inputmethod.indic.define.DebugFlags;
+import org.smc.inputmethod.miao.SuggestedWords;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.SuggestionSpanPickedNotificationReceiver;
+import org.smc.inputmethod.miao.define.DebugFlags;
 
 public final class SuggestionSpanUtils {
     // Note that SuggestionSpan.FLAG_AUTO_CORRECTION has been introduced

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.smc.inputmethod.indic.define;
+package org.smc.inputmethod.miao.define;
 
 public final class JniLibName {
     private JniLibName() {

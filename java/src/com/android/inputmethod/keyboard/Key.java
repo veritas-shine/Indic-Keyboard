@@ -34,15 +34,15 @@ import com.android.inputmethod.keyboard.internal.MoreKeySpec;
 import java.util.Arrays;
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.StringUtils;
 
 import static com.android.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
-import static org.smc.inputmethod.indic.Constants.CODE_OUTPUT_TEXT;
-import static org.smc.inputmethod.indic.Constants.CODE_SHIFT;
-import static org.smc.inputmethod.indic.Constants.CODE_SWITCH_ALPHA_SYMBOL;
-import static org.smc.inputmethod.indic.Constants.CODE_UNSPECIFIED;
+import static org.smc.inputmethod.miao.Constants.CODE_OUTPUT_TEXT;
+import static org.smc.inputmethod.miao.Constants.CODE_SHIFT;
+import static org.smc.inputmethod.miao.Constants.CODE_SWITCH_ALPHA_SYMBOL;
+import static org.smc.inputmethod.miao.Constants.CODE_UNSPECIFIED;
 
 /**
  * Class for describing the position and characteristics of a single key in the keyboard.

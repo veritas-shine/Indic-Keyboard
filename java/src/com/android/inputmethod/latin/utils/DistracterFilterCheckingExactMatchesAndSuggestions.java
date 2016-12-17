@@ -27,9 +27,9 @@ import android.view.inputmethod.InputMethodSubtype;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.KeyboardId;
 import com.android.inputmethod.keyboard.KeyboardLayoutSet;
-import org.smc.inputmethod.indic.DictionaryFacilitator;
+import org.smc.inputmethod.miao.DictionaryFacilitator;
 import com.android.inputmethod.latin.PrevWordsInfo;
-import org.smc.inputmethod.indic.WordComposer;
+import org.smc.inputmethod.miao.WordComposer;
 
 import java.util.HashMap;
 import java.util.List;
@@ -37,8 +37,8 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
-import org.smc.inputmethod.indic.settings.SettingsValuesForSuggestion;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.settings.SettingsValuesForSuggestion;
 
 /**
  * This class is used to prevent distracters being added to personalization

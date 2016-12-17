@@ -55,7 +55,7 @@ import java.util.TreeSet;
 import org.smc.inputmethod.compat.ConnectivityManagerCompatUtils;
 import org.smc.inputmethod.compat.DownloadManagerCompatUtils;
 import org.smc.inputmethod.compat.NotificationCompatUtils;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.ApplicationUtils;
 import com.android.inputmethod.latin.utils.DebugLogUtils;
 

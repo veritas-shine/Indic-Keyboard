@@ -27,7 +27,7 @@ import org.xmlpull.v1.XmlPullParser;
 
 import java.util.ArrayDeque;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 
 /**

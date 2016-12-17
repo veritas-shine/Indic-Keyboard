@@ -21,8 +21,8 @@ import com.android.inputmethod.latin.PrevWordsInfo.WordInfo;
 
 import java.util.regex.Pattern;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.settings.SpacingAndPunctuations;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.settings.SpacingAndPunctuations;
 
 public final class PrevWordsInfoUtils {
     private PrevWordsInfoUtils() {

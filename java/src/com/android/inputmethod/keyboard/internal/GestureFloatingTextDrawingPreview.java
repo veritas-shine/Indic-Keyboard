@@ -27,8 +27,8 @@ import android.text.TextUtils;
 import com.android.inputmethod.keyboard.KeyboardView;
 import com.android.inputmethod.keyboard.PointerTracker;
 
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.SuggestedWords;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.SuggestedWords;
 import com.android.inputmethod.latin.utils.CoordinateUtils;
 
 /**

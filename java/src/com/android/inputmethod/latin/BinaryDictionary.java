@@ -35,12 +35,12 @@ import java.util.Locale;
 import java.util.Map;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.Dictionary;
-import org.smc.inputmethod.indic.InputPointers;
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
-import org.smc.inputmethod.indic.WordComposer;
-import org.smc.inputmethod.indic.settings.SettingsValuesForSuggestion;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.Dictionary;
+import org.smc.inputmethod.miao.InputPointers;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.WordComposer;
+import org.smc.inputmethod.miao.settings.SettingsValuesForSuggestion;
 import com.android.inputmethod.latin.utils.BinaryDictionaryUtils;
 import com.android.inputmethod.latin.utils.FileUtils;
 import com.android.inputmethod.latin.utils.JniUtils;

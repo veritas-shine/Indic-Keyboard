@@ -31,7 +31,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeMap;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.DebugLogUtils;
 
 /**

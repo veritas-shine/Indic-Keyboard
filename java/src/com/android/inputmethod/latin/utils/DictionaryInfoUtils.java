@@ -33,11 +33,11 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-import org.smc.inputmethod.indic.AssetFileAddress;
-import org.smc.inputmethod.indic.BinaryDictionaryGetter;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.settings.SpacingAndPunctuations;
+import org.smc.inputmethod.miao.AssetFileAddress;
+import org.smc.inputmethod.miao.BinaryDictionaryGetter;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.settings.SpacingAndPunctuations;
 
 /**
  * This class encapsulates the logic for the Latin-IME side of dictionary information management.

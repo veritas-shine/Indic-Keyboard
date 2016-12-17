@@ -26,7 +26,7 @@ import java.util.Comparator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 public class KeyboardParams {
     public KeyboardId mId;

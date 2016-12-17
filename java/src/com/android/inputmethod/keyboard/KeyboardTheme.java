@@ -24,7 +24,7 @@ import java.util.Arrays;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
 import org.smc.inputmethod.compat.BuildCompatUtils;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class KeyboardTheme implements Comparable<KeyboardTheme> {
     private static final String TAG = KeyboardTheme.class.getSimpleName();

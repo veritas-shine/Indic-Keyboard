@@ -16,7 +16,7 @@
 
 package org.smc.inputmethod.event;
 
-import org.smc.inputmethod.indic.settings.SettingsValues;
+import org.smc.inputmethod.miao.settings.SettingsValues;
 
 /**
  * An object encapsulating a single transaction for input.

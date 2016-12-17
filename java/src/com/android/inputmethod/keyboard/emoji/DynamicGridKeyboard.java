@@ -29,7 +29,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import org.smc.inputmethod.indic.settings.Settings;
+import org.smc.inputmethod.miao.settings.Settings;
 import com.android.inputmethod.latin.utils.JsonUtils;
 
 /**

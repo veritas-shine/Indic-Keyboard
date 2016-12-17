@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class KeyPreviewDrawParams {
     // XML attributes of {@link MainKeyboardView}.

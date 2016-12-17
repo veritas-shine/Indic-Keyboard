@@ -22,7 +22,7 @@ import android.os.Message;
 
 import com.android.inputmethod.keyboard.Key;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 // Handling long press timer to show a more keys keyboard.
 final class AccessibilityLongPressTimer extends Handler {

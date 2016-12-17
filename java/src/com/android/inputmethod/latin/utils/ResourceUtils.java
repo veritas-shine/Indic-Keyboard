@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.regex.PatternSyntaxException;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 public final class ResourceUtils {
     private static final String TAG = ResourceUtils.class.getSimpleName();

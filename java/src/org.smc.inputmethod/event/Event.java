@@ -16,8 +16,8 @@
 
 package org.smc.inputmethod.event;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.SuggestedWords.SuggestedWordInfo;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.SuggestedWords.SuggestedWordInfo;
 import com.android.inputmethod.latin.utils.StringUtils;
 
 /**

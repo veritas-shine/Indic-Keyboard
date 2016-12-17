@@ -20,7 +20,7 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.SparseIntArray;
 
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyVisualAttributes {

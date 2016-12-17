@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.smc.inputmethod.indic.personalization;
+package org.smc.inputmethod.miao.personalization;
 
 import android.content.Context;
 
-import org.smc.inputmethod.indic.DictionaryFacilitator;
+import org.smc.inputmethod.miao.DictionaryFacilitator;
 
 public class ContextualDictionaryUpdater {
     public ContextualDictionaryUpdater(final Context context,

@@ -18,8 +18,8 @@ package com.android.inputmethod.latin;
 
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.settings.NativeSuggestOptions;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.settings.NativeSuggestOptions;
 import com.android.inputmethod.latin.utils.JniUtils;
 
 public final class DicTraverseSession {

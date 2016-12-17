@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 import javax.annotation.Nonnull;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 /**
  * A combiner that reorders input for Myanmar.

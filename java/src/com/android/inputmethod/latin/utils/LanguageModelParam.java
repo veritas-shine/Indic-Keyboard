@@ -18,15 +18,15 @@ package com.android.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.smc.inputmethod.indic.DictionaryFacilitator;
+import org.smc.inputmethod.miao.DictionaryFacilitator;
 import com.android.inputmethod.latin.PrevWordsInfo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Dictionary;
-import org.smc.inputmethod.indic.settings.SpacingAndPunctuations;
+import org.smc.inputmethod.miao.Dictionary;
+import org.smc.inputmethod.miao.settings.SpacingAndPunctuations;
 
 // Note: this class is used as a parameter type of a native method. You should be careful when you
 // rename this class or field name. See BinaryDictionary#addMultipleDictionaryEntriesNative().

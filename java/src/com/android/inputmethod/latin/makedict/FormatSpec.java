@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.HashMap;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 /**
  * Dictionary File Format Specification.

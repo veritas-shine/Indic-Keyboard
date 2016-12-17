@@ -37,9 +37,9 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.smc.inputmethod.compat.BuildCompatUtils;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.settings.Settings;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.settings.Settings;
 
 final class EmojiCategory {
     private final String TAG = EmojiCategory.class.getSimpleName();

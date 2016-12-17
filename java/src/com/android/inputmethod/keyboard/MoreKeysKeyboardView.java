@@ -30,8 +30,8 @@ import com.android.inputmethod.keyboard.internal.KeyDrawParams;
 
 import org.smc.inputmethod.accessibility.AccessibilityUtils;
 import org.smc.inputmethod.accessibility.MoreKeysKeyboardAccessibilityDelegate;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
 import com.android.inputmethod.latin.utils.CoordinateUtils;
 
 /**

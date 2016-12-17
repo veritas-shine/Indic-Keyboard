@@ -30,7 +30,7 @@ import com.android.inputmethod.keyboard.KeyboardView;
 
 import org.smc.inputmethod.accessibility.AccessibilityUtils;
 import org.smc.inputmethod.accessibility.KeyboardAccessibilityDelegate;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
 /**
  * This is an extended {@link KeyboardView} class that hosts an emoji page keyboard.

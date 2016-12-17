@@ -18,8 +18,8 @@ package com.android.inputmethod.keyboard.internal;
 
 import android.util.Log;
 
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.InputPointers;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.InputPointers;
 import com.android.inputmethod.latin.utils.ResizableIntArray;
 
 /**

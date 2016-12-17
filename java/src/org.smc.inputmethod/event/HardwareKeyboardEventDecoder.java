@@ -19,7 +19,7 @@ package org.smc.inputmethod.event;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 
 /**
  * A hardware event decoder for a hardware qwerty-ish keyboard.

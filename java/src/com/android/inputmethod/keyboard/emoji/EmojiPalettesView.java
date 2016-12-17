@@ -47,13 +47,13 @@ import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
 
 import java.util.concurrent.TimeUnit;
 
-import org.smc.inputmethod.indic.AudioAndHapticFeedbackManager;
-import org.smc.inputmethod.indic.Constants;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.SubtypeSwitcher;
+import org.smc.inputmethod.miao.AudioAndHapticFeedbackManager;
+import org.smc.inputmethod.miao.Constants;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.SubtypeSwitcher;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 
-import static org.smc.inputmethod.indic.Constants.NOT_A_COORDINATE;
+import static org.smc.inputmethod.miao.Constants.NOT_A_COORDINATE;
 
 /**
  * View class to implement Emoji palettes.

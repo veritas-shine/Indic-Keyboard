@@ -18,7 +18,7 @@ package com.android.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.smc.inputmethod.indic.define.JniLibName;
+import org.smc.inputmethod.miao.define.JniLibName;
 
 public final class JniUtils {
     private static final String TAG = JniUtils.class.getSimpleName();

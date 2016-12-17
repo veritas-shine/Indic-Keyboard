@@ -26,14 +26,14 @@ import java.util.Arrays;
 
 import org.smc.inputmethod.annotations.UsedForTesting;
 import org.smc.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import org.smc.inputmethod.indic.R;
+import org.smc.inputmethod.miao.R;
 
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.EMOJI_CAPABLE;
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static org.smc.inputmethod.indic.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
-import static org.smc.inputmethod.indic.Constants.Subtype.KEYBOARD_MODE;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.EMOJI_CAPABLE;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static org.smc.inputmethod.miao.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static org.smc.inputmethod.miao.Constants.Subtype.KEYBOARD_MODE;
 
 public final class AdditionalSubtypeUtils {
     private static final String TAG = AdditionalSubtypeUtils.class.getSimpleName();

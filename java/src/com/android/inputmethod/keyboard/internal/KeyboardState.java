@@ -19,7 +19,7 @@ package com.android.inputmethod.keyboard.internal;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 import com.android.inputmethod.latin.utils.RecapitalizeStatus;
 
 /**

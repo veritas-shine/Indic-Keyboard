@@ -23,7 +23,7 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.os.SystemClock;
 
-import org.smc.inputmethod.indic.Constants;
+import org.smc.inputmethod.miao.Constants;
 import com.android.inputmethod.latin.utils.ResizableIntArray;
 
 /**

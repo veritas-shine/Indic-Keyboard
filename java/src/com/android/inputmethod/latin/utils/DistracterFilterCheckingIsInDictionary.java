@@ -23,7 +23,7 @@ import com.android.inputmethod.latin.PrevWordsInfo;
 import java.util.List;
 import java.util.Locale;
 
-import org.smc.inputmethod.indic.Dictionary;
+import org.smc.inputmethod.miao.Dictionary;
 
 public class DistracterFilterCheckingIsInDictionary implements DistracterFilter {
     private final DistracterFilter mDistracterFilter;

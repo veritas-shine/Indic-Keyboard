@@ -32,14 +32,14 @@ import com.android.inputmethod.keyboard.internal.KeyboardState;
 import com.android.inputmethod.keyboard.internal.KeyboardTextsSet;
 
 import org.smc.inputmethod.compat.InputMethodServiceCompatUtils;
-import org.smc.inputmethod.indic.InputView;
-import org.smc.inputmethod.indic.LatinIME;
-import org.smc.inputmethod.indic.R;
-import org.smc.inputmethod.indic.RichInputMethodManager;
-import org.smc.inputmethod.indic.SubtypeSwitcher;
-import org.smc.inputmethod.indic.WordComposer;
-import org.smc.inputmethod.indic.settings.Settings;
-import org.smc.inputmethod.indic.settings.SettingsValues;
+import org.smc.inputmethod.miao.InputView;
+import org.smc.inputmethod.miao.LatinIME;
+import org.smc.inputmethod.miao.R;
+import org.smc.inputmethod.miao.RichInputMethodManager;
+import org.smc.inputmethod.miao.SubtypeSwitcher;
+import org.smc.inputmethod.miao.WordComposer;
+import org.smc.inputmethod.miao.settings.Settings;
+import org.smc.inputmethod.miao.settings.SettingsValues;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 import com.android.inputmethod.latin.utils.ScriptUtils;
 

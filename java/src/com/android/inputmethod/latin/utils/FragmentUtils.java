@@ -20,22 +20,22 @@ import org.smc.inputmethod.dictionarypack.DictionarySettingsFragment;
 
 import java.util.HashSet;
 
-import org.smc.inputmethod.indic.about.AboutPreferences;
-import org.smc.inputmethod.indic.settings.AdvancedSettingsFragment;
-import org.smc.inputmethod.indic.settings.AppearanceSettingsFragment;
-import org.smc.inputmethod.indic.settings.CorrectionSettingsFragment;
-import org.smc.inputmethod.indic.settings.CustomInputStyleSettingsFragment;
-import org.smc.inputmethod.indic.settings.DebugSettingsFragment;
-import org.smc.inputmethod.indic.settings.GestureSettingsFragment;
-import org.smc.inputmethod.indic.settings.MultiLingualSettingsFragment;
-import org.smc.inputmethod.indic.settings.PreferencesSettingsFragment;
-import org.smc.inputmethod.indic.settings.SettingsFragment;
-import org.smc.inputmethod.indic.settings.ThemeSettingsFragment;
-import org.smc.inputmethod.indic.spellcheck.SpellCheckerSettingsFragment;
-import org.smc.inputmethod.indic.userdictionary.UserDictionaryAddWordFragment;
-import org.smc.inputmethod.indic.userdictionary.UserDictionaryList;
-import org.smc.inputmethod.indic.userdictionary.UserDictionaryLocalePicker;
-import org.smc.inputmethod.indic.userdictionary.UserDictionarySettings;
+import org.smc.inputmethod.miao.about.AboutPreferences;
+import org.smc.inputmethod.miao.settings.AdvancedSettingsFragment;
+import org.smc.inputmethod.miao.settings.AppearanceSettingsFragment;
+import org.smc.inputmethod.miao.settings.CorrectionSettingsFragment;
+import org.smc.inputmethod.miao.settings.CustomInputStyleSettingsFragment;
+import org.smc.inputmethod.miao.settings.DebugSettingsFragment;
+import org.smc.inputmethod.miao.settings.GestureSettingsFragment;
+import org.smc.inputmethod.miao.settings.MultiLingualSettingsFragment;
+import org.smc.inputmethod.miao.settings.PreferencesSettingsFragment;
+import org.smc.inputmethod.miao.settings.SettingsFragment;
+import org.smc.inputmethod.miao.settings.ThemeSettingsFragment;
+import org.smc.inputmethod.miao.spellcheck.SpellCheckerSettingsFragment;
+import org.smc.inputmethod.miao.userdictionary.UserDictionaryAddWordFragment;
+import org.smc.inputmethod.miao.userdictionary.UserDictionaryList;
+import org.smc.inputmethod.miao.userdictionary.UserDictionaryLocalePicker;
+import org.smc.inputmethod.miao.userdictionary.UserDictionarySettings;
 
 public class FragmentUtils {
     private static final HashSet<String> sLatinImeFragments = new HashSet<>();
