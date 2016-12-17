@@ -70,12 +70,19 @@
             <!-- MYANMAR LETTER CHA -->
             <Key
                 latin:keyLabelFlags="fontNormal"
-                latin:keySpec="0x16F16" />
-            <!-- MYANMAR LETTER TA
-                 MYANMAR LETTER TTA -->
+                latin:keySpec="0x16F16"
+                latin:moreKeys="0x16F17,0x16F18,0x16F19"
+                latin:keyHintLabel="0x16F18" />
             <Key
                 latin:keyLabelFlags="fontNormal"
-                latin:keySpec="0x16F01" />
+                latin:keySpec="0x16F21"
+                latin:moreKeys="0x16F22"
+                latin:keyHintLabel="0x16F22" />
+            <Key
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F14"
+                latin:moreKeys="0x16F15"
+                latin:keyHintLabel="0x16F15" />
             <!-- MYANMAR LETTER NA -->
             <Key
                 latin:keyHintLabel="0x16F2E"
@@ -102,10 +109,10 @@
                 latin:moreKeys="0x16F44" />
             <!-- MYANMAR LETTER KA -->
             <Key
-                latin:keyHintLabel="0x16F6C"
+                latin:keyHintLabel="0x16F6A"
                 latin:keyLabelFlags="fontNormal"
-                latin:keySpec="0x16F6A"
-                latin:moreKeys="0x16F6B" />
+                latin:keySpec="0x16F42"
+                latin:moreKeys="0x16F6A,0x16F6B,0x16F6C,0x16F6D,0x16F6E,0x16F6F,0x16F70" />
             <!-- MYANMAR LETTER NGA -->
             <Key
                 latin:keyHintLabel="0x16F63"
@@ -118,12 +125,16 @@
                 latin:keyLabelFlags="fontNormal"
                 latin:keySpec="0x16F59"
                 latin:moreKeys="0x16F5A" />
-            <!-- MYANMAR LETTER O -->
+            <Key
+                latin:keyHintLabel="0x16F0F"
+                latin:keyLabelFlags="fontNormal"
+                latin:keySpec="0x16F0E"
+                latin:moreKeys="0x16F0F" />
             <Key
                 latin:keyHintLabel="0x16F01"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio"
                 latin:keySpec="0x16F00"
-                latin:moreKeys="0x16F01" />
+                latin:moreKeys="0x16F01,0x16F03" />
         </default>
     </switch>
 </merge>

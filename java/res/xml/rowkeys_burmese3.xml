@@ -101,13 +101,13 @@
             <!-- MYANMAR VOWEL SIGN AA -->
              <Key
                  latin:keySpec="0x16F10"
-                 latin:moreKeys="0x16F11"
+                 latin:moreKeys="0x16F11,0x16F13"
                  latin:keyHintLabel="0x16F11"
                 latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR SIGN SECTION -->
              <Key
                  latin:keySpec="0x16F04"
-                 latin:moreKeys="0x16F05"
+                 latin:moreKeys="0x16F05,0x16F06"
                  latin:keyHintLabel="0x16F05"
                  latin:keyLabelFlags="fontNormal" />
         </default>

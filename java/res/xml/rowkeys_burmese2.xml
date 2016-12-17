@@ -75,7 +75,14 @@
                 latin:moreKeys="0x16F55"
                 latin:keyHintLabel="0x16F56"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
-            <!-- MYANMAR CONSONANT SIGN MEDIAL YA -->
+            <Key
+                latin:keySpec="0x16F2A"
+                latin:moreKeys="0x16F2B"
+                latin:keyHintLabel="0x16F2B"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
+            <Key
+                latin:keySpec="0x16F2C"
+                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <Key
                 latin:keySpec="0x16F3A"
                 latin:moreKeys="0x16F3B"
@@ -84,19 +91,17 @@
             <!-- MYANMAR VOWEL SIGN I -->
             <Key
                 latin:keySpec="0x16F1A"
-                latin:moreKeys="0x16F1B"
+                latin:moreKeys="0x16F1B,0x16F1C,0x16F1D"
                 latin:keyHintLabel="0x16F1B"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SIGN ASAT -->
             <Key
-                latin:keySpec="0x16F14"
-                latin:moreKeys="0x16F15"
-                latin:keyHintLabel="0x16F15"
+                latin:keySpec="0x16F07"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR VOWEL SIGN TALL AA -->
             <Key
                 latin:keySpec="0x16F23"
-                latin:moreKeys="0x16F24"
+                latin:moreKeys="0x16F24,0x16F25"
                 latin:keyHintLabel="0x16F24"
                latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
             <!-- MYANMAR SIGN DOT BELOW -->
@@ -122,9 +127,9 @@
                latin:keyLabelFlags="fontNormal" />
             <!-- MYANMAR SYMBOL GENITIVE -->
             <Key
-                latin:keySpec="0x16F16"
-                latin:moreKeys="0x16F17"
-                latin:keyHintLabel="0x16F18"
+                latin:keySpec="0x16F2F"
+                latin:moreKeys="0x16F32"
+                latin:keyHintLabel="0x16F32"
                 latin:keyLabelFlags="fontNormal|followKeyLetterRatio" />
         </default>
     </switch>
