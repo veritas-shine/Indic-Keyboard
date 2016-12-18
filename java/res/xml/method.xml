@@ -31,7 +31,7 @@
     <!-- Miao -->
     <subtype android:icon="@drawable/ic_ime_switcher_dark"
             android:label="@string/keyboard_name_my"
-            android:imeSubtypeLocale="my"
+            android:imeSubtypeLocale="hmn"
             android:imeSubtypeMode="keyboard"
             android:imeSubtypeExtraValue="KeyboardLayoutSet=burmese,EmojiCapable" />
 </input-method>

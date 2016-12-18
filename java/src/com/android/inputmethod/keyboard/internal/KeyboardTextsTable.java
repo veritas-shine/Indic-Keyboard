@@ -687,7 +687,7 @@ public final class KeyboardTextsTable {
     };
 
     /* Locale my: Burmese */
-    private static final String[] TEXTS_my = {
+    private static final String[] TEXTS_hmn = {
         /* keylabel_to_alpha */ "\uD81B\uDF37",
         /* additional_morekeys_symbols_1 */ "1",
         /* additional_morekeys_symbols_2 */ "2",
@@ -997,20 +997,8 @@ public final class KeyboardTextsTable {
     private static final Object[] LOCALES_AND_TEXTS = {
     // "locale", TEXT_ARRAY,  /* numberOfNonNullText/lengthOf_TEXT_ARRAY localeName */
         "DEFAULT", TEXTS_DEFAULT, /* 168/168 DEFAULT */
-        "as_IN"  , TEXTS_as_IN, /*  22/ 22 Assamese (India) */
-        "bn_IN"  , TEXTS_bn_IN, /*  22/ 22 Bengali (India) */
         "en"     , TEXTS_en,    /*   8/ 30 English */
-        "hi_IN"  , TEXTS_hi_IN, /*  22/ 22 Hindi (India) */
-        "kn_IN"  , TEXTS_kn_IN, /*  22/ 22 Kannada (India) */
-        "ml_IN"  , TEXTS_ml_IN, /*  11/ 11 Malayalam (India) */
-        "mr_IN"  , TEXTS_mr_IN, /*  22/ 22 Marathi (India) */
-        "my"     , TEXTS_my,    /*  22/ 22 Burmese */
-        "ne_NP"  , TEXTS_ne_NP, /*  22/ 22 Nepali (Nepal) */
-        "or_IN"  , TEXTS_or_IN, /*  22/ 22 Oriya (India) */
-        "pa_IN"  , TEXTS_pa_IN, /*  22/ 22 Panjabi (India) */
-        "ta_IN"  , TEXTS_ta_IN, /*  22/ 22 Tamil (India) */
-        "te_IN"  , TEXTS_te_IN, /*  22/ 22 Telugu (India) */
-        "zz"     , TEXTS_zz,    /*  19/ 41 Alphabet */
+        "hmn"     , TEXTS_hmn,    /*  22/ 22 Burmese */
     };
 
     static {
